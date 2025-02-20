@@ -7,9 +7,7 @@ Welcome to my personal developer portfolio! This website showcases my projects, 
 The design of this portfolio is not my own, but one of [Britanny Chiang's](https://github.com/bchiang7) amazing works. I was truly impressed by her design and decided to rebuild it from scratch while adding my own tweaks and customizations. Huge credit goes to her for her creativity and effort!
 
 ## Tech Stack
-
-This portfolio is built with:
-- [TypeScript, Next.js, Tailwind CSS,]
+TypeScript, Next.js, and Tailwind CSS
 
 ## Setup & Usage
 
@@ -17,11 +15,11 @@ To run this portfolio locally:
 
 1. Clone this repository:
    ```sh
-   git clone [repository link]
+   git clone https://github.com/gabosterwall/dev-portfolio-v2.git <project-name>
    ```
 2. Navigate into the project folder:
    ```sh
-   cd portfolio
+   cd <project-name>
    ```
 3. Install dependencies:
    ```sh
