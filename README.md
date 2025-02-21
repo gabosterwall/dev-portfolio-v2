@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio! This website showcases my projects, 
 
 ## Inspiration & Credits
 
-The design of this portfolio is not my own, but one of [Britanny Chiang's](https://github.com/bchiang7) amazing works. I was truly impressed by her design and decided to rebuild it from scratch while adding my own tweaks and customizations. Huge credit goes to her for her creativity and effort!
+The design of this portfolio is not my own, but one of [Britanny Chiang's](https://brittanychiang.com/) amazing works. I was truly impressed by her design and decided to rebuild it from scratch while adding my own tweaks and customizations. Huge credit goes to her for her creativity and effort!
 
 ## Tech Stack
 TypeScript, Next.js, and Tailwind CSS
@@ -33,7 +33,7 @@ To run this portfolio locally:
 
 ## License
 
-This project is licensed under the MIT License, following the original repository's licensing terms. You are free to use, modify, and distribute this project under the same license. Please note that since the design is inspired by [Britanny Chiang's](https://github.com/bchiang7), crediting them is highly appreciated. For full details, refer to the original repository's license file.
+This project is licensed under the MIT License, following the original repository's licensing terms. You are free to use, modify, and distribute this project under the same license. Please note that since the design is by [Britanny Chiang's](https://github.com/bchiang7), crediting them is highly appreciated.
 
 ## Contact
 

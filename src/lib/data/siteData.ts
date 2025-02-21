@@ -143,7 +143,7 @@ export const workData = [
     employer: "Tietoevry Fintech Sweden AB",
     employerUrl: currentEmployerUrl,
     description:
-      "I design, develop, and maintain customized integrations and user interfaces for large-scale financial services applications, leveraging a microservice architecture to enhance scalability and efficiency. My work involves building and optimizing integration services using Java, Spring Boot, Apache Camel, and Apache Maven. Collaborating in a SAFe agile environment, I work closely with cross-functional teams to deliver robust, high-quality solutions.",
+      "I design, develop, and maintain customized integrations and user interfaces for large-scale financial services applications, leveraging a microservice architecture to enhance scalability and efficiency. My work involves building and optimizing integration services using Java, Spring Boot, Apache Camel, and Apache Maven. Collaborating in a SAFe agile environment, I work closely with cross-functional teams to deliver robust, high-quality solutions. Additionally, I design and execute unit, integration, and system tests to ensure reliability and maintainability",
     startDate: "Sep 2024",
     endDate: "Present",
   },
