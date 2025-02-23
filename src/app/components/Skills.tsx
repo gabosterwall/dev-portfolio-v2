@@ -1,4 +1,4 @@
-import { skillset, certificates } from "@/lib/data/siteData";
+import { skillsData, certificates } from "@/lib/data/siteData";
 import Link from "next/link";
 
 export default function Skills() {
@@ -7,7 +7,7 @@ export default function Skills() {
       <div className="flex flex-col gap-3">
         <h1 className="font-semibold text-sm">Languages</h1>
         <div className="flex flex-wrap gap-2">
-          {skillset.languages.map((item, index) => {
+          {skillsData.languages.map((item, index) => {
             const Icon = item.icon;
             return (
               <span
@@ -24,7 +24,7 @@ export default function Skills() {
       <div className="flex flex-col gap-3">
         <h1 className="font-semibold text-sm">DevOps & CI/CD</h1>
         <div className="flex flex-wrap gap-2">
-          {skillset.devOpsAndCICD.map((item, index) => {
+          {skillsData.devOpsAndCICD.map((item, index) => {
             const Icon = item.icon;
             return (
               <span
@@ -41,7 +41,7 @@ export default function Skills() {
       <div className="flex flex-col gap-3">
         <h1 className="font-semibold text-sm">Technologies & Frameworks</h1>
         <div className="flex flex-wrap gap-2">
-          {skillset.technologiesAndFrameworks.map((item, index) => {
+          {skillsData.technologiesAndFrameworks.map((item, index) => {
             const Icon = item.icon;
             return (
               <span
@@ -58,7 +58,7 @@ export default function Skills() {
       <div className="flex flex-col gap-3">
         <h1 className="font-semibold text-sm">Databases</h1>
         <div className="flex flex-wrap gap-2">
-          {skillset.databases.map((item, index) => {
+          {skillsData.databases.map((item, index) => {
             const Icon = item.icon;
             return (
               <span
