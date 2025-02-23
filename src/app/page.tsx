@@ -54,7 +54,7 @@ export default function Page() {
           id="about"
           className="w-full md:min-h-screen flex flex-col gap-2 md:gap-0 py-8 md:pt-[16%] font-normal text-foreground leading-relaxed"
         >
-          <h1 className="md:hidden sticky top-0 bg-[#090f1f]/75 backdrop-blur-sm flex font-medium text-slate-200 py-4">
+          <h1 className="md:hidden sticky top-0 bg-[#0a1226]/80 backdrop-blur-sm flex font-medium text-slate-200 py-4">
             About
           </h1>
           <About />
@@ -63,7 +63,7 @@ export default function Page() {
           id="experience"
           className="w-full flex flex-col min-h-screen gap-2 md:gap-0 py-8 md:py-[16%] text-base font-light "
         >
-          <h1 className="md:hidden sticky top-0 bg-[#090f1f]/75 backdrop-blur-sm flex font-medium text-slate-200 py-4">
+          <h1 className="md:hidden sticky top-0 bg-[#0a1226]/80 backdrop-blur-sm flex font-medium text-slate-200 py-4">
             Experience
           </h1>
           <Experience />
@@ -72,7 +72,7 @@ export default function Page() {
           id="skills"
           className="w-full flex flex-col min-h-screen gap-2 md:gap-0 py-8 md:py-[16%] text-base font-light"
         >
-          <h1 className="md:hidden sticky top-0 bg-[#090f1f]/75 backdrop-blur-sm flex font-medium text-slate-200 py-4 mt-6">
+          <h1 className="md:hidden sticky top-0 bg-[#0a1226]/80 backdrop-blur-sm flex font-medium text-slate-200 py-4 mt-6">
             Skills
           </h1>
           <Skills />
@@ -81,7 +81,7 @@ export default function Page() {
           id="projects"
           className="w-full flex flex-col min-h-screen gap-2 md:gap-0 pt-8 md:pt-[16%]"
         >
-          <h1 className="md:hidden sticky top-0 bg-[#090f1f]/75 backdrop-blur-sm flex font-medium text-slate-200 py-4 mt-6">
+          <h1 className="md:hidden sticky top-0 bg-[#0a1226]/80 backdrop-blur-sm flex font-medium text-slate-200 py-4 mt-6">
             Projects
           </h1>
           <Projects />
