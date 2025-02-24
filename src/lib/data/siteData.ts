@@ -37,6 +37,11 @@ import img1 from "../../../public/screenshot-dev-portfolio.png";
 import img2 from "../../../public/screenshot-resume-api.png";
 import img3 from "../../../public/screenshot-java-solitaire.png";
 
+export const projectUrl =
+  process.env.NEXT_PUBLIC_PROJECT_URL ||
+  process.env.NEXT_PUBLIC_VERCEL_URL ||
+  "#";
+
 export const projectData = [
   {
     src: img1,
@@ -46,7 +51,7 @@ export const projectData = [
       "This website. Original design by Brittany Chiang, rebuilt and tweaked by me. Deployed to Vercel.",
     stack: ["TypeScript", "Next.js", "Tailwind", "Vercel"],
     refUrl: "https://github.com/bchiang7",
-    repoUrl: "",
+    repoUrl: "https://github.com/gabosterwall/dev-portfolio-v2",
     repoIcon: TbCode,
   },
   {

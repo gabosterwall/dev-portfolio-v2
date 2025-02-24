@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { GithubIcon, MailIcon, LinkedinIcon } from "./IconLinks";
+import { projectUrl } from "@/lib/data/siteData";
 
 type StickyDisplayProps = {
   visibleSection: string | null;
@@ -18,7 +20,9 @@ export default function StickyDisplay({ visibleSection }: StickyDisplayProps) {
   return (
     <section className="w-full h-full flex flex-col gap-4 md:gap-0 md:justify-between">
       <div className={`w-full flex flex-col gap-3 text-left`}>
-        <h1 className="text-4xl md:text-5xl font-bold text-slate-200">Gabriél Österwall</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-slate-200">
+          <Link href={projectUrl}>Gabriél Österwall</Link>
+        </h1>
         <h2 className="text-xl md:text-2xl font-normal text-slate-300">
           Software Engineer
         </h2>
